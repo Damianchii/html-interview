@@ -1,8 +1,7 @@
 
 # HTML Interview Questions
-```diff
-+ ### What does a `doctype` do? | Co robi `doctype` ?
-```
+
+### What does a `doctype` do? | Co robi `doctype` ?
 * Specifies the version of the markup language used in a document, helping browsers interpret and render the content correctly
 * Określa wersję języka znaczników używanego w dokumencie, co pozwala przeglądarkom poprawnie interpretować i renderować zawartość 
 ### How do you serve a page with content in multiple languages? | Jak udostępnić stronę z treścią w wielu językach?
@@ -21,5 +20,24 @@
 * `data-attributes` are used to store custom data for elements. They are helpful for JavaScript interaction
 * `data-attributes` służą do przechowywania niestandardowych danych elementów. Są pomocne w interakcji JavaScript
 ### Consider HTML5 as an open web platform. What are the building blocks of HTML5? | Rozważ HTML5 jako otwartą platformę internetową. Jakie są elementy składowe HTML5?
-* <b>HTML5</b> - new semantic tags or better structure and meaning
+* <b>Semantics</b> HTML tags describe the content.
+* <b>Styling - CSS</b> Customizing appearance of HTML tags
+* <b>Connectivity</b> Communicate with the server in new and innovative ways.
+* <b>Offline and storage</b> Allows webpages to store data on the client-side locally and operate offline more efficiently.
+* <b>Multimedia</b> Makes video and audio first-class citizens in the Open Web.
+* <b>2D/3D graphics and effects</b> Allows a much more diverse range of presentation options.
+* <b>Performance and integration</b> Provides greater speed optimization and better usage of computer hardware.
+* <b>Device access</b> Allows for the usage of various input and output devices.
+
+
+* <b>Semantyka</b> Tagi HTML opisują zawartość.
+* <b>Stylizacja - CSS</b> Dostosowywanie wyglądu tagów HTML.
+* <b>Łączność</b> Komunikacja z serwerem w nowych i innowacyjnych sposób.
+* <b>Tryb offline i przechowywanie</b> Pozwala stronie internetowej przechowywać dane po stronie klienta lokalnie i efektywnie działać w trybie offline.
+* <b>Multimedia</b> Wprowadza wideo i dźwięk na pierwszy plan w otwartym internecie.
+* <b>Grafika 2D/3D i efekty</b> Oferuje znacznie bardziej zróżnicowane opcje prezentacji.
+* <b>Wydajność i integracja</b> Zapewnia optymalizację szybkości i lepsze wykorzystanie sprzętu komputerowego.
+* <b>Dostęp do urządzeń</b> Umożliwia korzystanie z różnych urządzeń wejściowych i wyjściowych.
+
+
 
