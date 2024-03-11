@@ -1,2 +1,4 @@
 # HTML Interview Questions
-TML interview questions
+
+### What does a doctype do?
+
