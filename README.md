@@ -28,7 +28,7 @@
 * <b>2D/3D graphics and effects</b> Allows a much more diverse range of presentation options.
 * <b>Performance and integration</b> Provides greater speed optimization and better usage of computer hardware.
 * <b>Device access</b> Allows for the usage of various input and output devices.
-
+<br/>
 
 * <b>Semantyka</b> Tagi HTML opisują zawartość.
 * <b>Stylizacja - CSS</b> Dostosowywanie wyglądu tagów HTML.
