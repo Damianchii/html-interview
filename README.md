@@ -11,6 +11,6 @@
   <html lang="en">
 ```
 ```bash
-  <span lang="en">Hello</span>
+  <span lang="en"> Hello </span>
 ```
 
