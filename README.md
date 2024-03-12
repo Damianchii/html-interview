@@ -71,7 +71,7 @@
 * Różnica między tymi atrybutami jest też taka, że skrypty z atrybutem defer będą odpalane w kolejności w jakiej zostały wstawione do dokumentu. W przypadku async skrypty będą odpalane w kolejności "kto pierwszy ten lepszy", czyli który skrypt wczyta się wcześniej, ten zostanie wcześniej odpalony.
 
 
-## Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions? | Dlaczego dobrym pomysłem jest zeby pozycjonować css `<link>` 
+## Why is it generally a good idea to position CSS `<link>` between `<head></head>` and JS `<script>` just before `</body>`? Do you know any exceptions? | Dlaczego dobrym pomysłem jest zeby pozycjonować css `<link>` pomiedzy znacznikiem `<head></head>` i JS `<script>` przed `</body>` znasz jakies wyjątki ?
 
 *  In a nutshell, such a placement of CSS `<link>` and JavaScript `<script>` allows for faster rendering of the page and better overall performance.
 
