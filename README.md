@@ -68,4 +68,4 @@
 
 * Atrybut `defer` działa w miarę podobnie. Plik ze skryptem też będzie wczytywany w tle. Różnica jest taka, że jeżeli przeglądarka wczyta już cały plik ze skryptem, odpali go po załadowaniu całego dokumentu (ale tuż przed odpaleniem zdarzenia DOMContentLoaded). Można to przyrównać do sytuacji, gdy dany skrypt byłby umieszczony tuż przed końcem body. 
 
-* Różnica między tymi atrybutami jest też taka, że skrypty z atrybutem defer będą odpalane w kolejności w jakiej zostały wstawione do dokumentu. W przypadku async skrypty będą odpalane w kolejności "kto pierwszy ten lepszy", czyli który skrypt wczyta się wcześniej, ten zostanie wcześniej odpalony.
+* Różnica między tymi atrybutami jest też taka, że skrypty z atrybutem `defer` będą odpalane w kolejności w jakiej zostały wstawione do dokumentu. W przypadku `async` skrypty będą odpalane w kolejności "kto pierwszy ten lepszy", czyli który skrypt wczyta się wcześniej, ten zostanie wcześniej odpalony.
