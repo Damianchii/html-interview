@@ -1,7 +1,7 @@
 
 # HTML Interview Questions
 
-### What does a `doctype` do? | Co robi `doctype` ?
+## What does a `doctype` do? | Co robi `doctype` ?
 * Specifies the HTML standard, helping browsers interpret and render the content correctly
 * Określa standard języka HTML. Polecenie jest wystawiane jeszcze przed definicja wlaciwego dokumentu 
 ### How do you serve a page with content in multiple languages? | Jak udostępnić stronę z treścią w wielu językach?
@@ -13,13 +13,13 @@
 ```bash
   <span lang="en">Hello</span>
 ```
-### How do you serve a page with content in multiple languages? | Jak udostępnić stronę z treścią w wielu językach?
+## How do you serve a page with content in multiple languages? | Jak udostępnić stronę z treścią w wielu językach?
 * Be wary of layout or overflow issues in the design
 * Trzyba uważać na problemy z układem lub przepełnieniem projektu.
-### What are `data-` attributes good for? | Do czego `data-` są dobre ?
+## What are `data-` attributes good for? | Do czego `data-` są dobre ?
 * `data-attributes` are used to store custom data for elements. They are helpful for JavaScript interaction
 * `data-attributes` służą do przechowywania niestandardowych danych elementów. Są pomocne w interakcji JavaScript
-### Consider HTML5 as an open web platform. What are the building blocks of HTML5? | Rozważ HTML5 jako otwartą platformę internetową. Jakie są elementy składowe HTML5?
+## Consider HTML5 as an open web platform. What are the building blocks of HTML5? | Rozważ HTML5 jako otwartą platformę internetową. Jakie są elementy składowe HTML5?
 * <b>Semantics</b> HTML tags describe the content.
 * <b>Styling - CSS</b> Customizing appearance of HTML tags
 * <b>Connectivity</b> Communicate with the server in new and innovative ways.
@@ -39,7 +39,7 @@
 * <b>Wydajność i integracja</b> Zapewnia optymalizację szybkości i lepsze wykorzystanie sprzętu komputerowego.
 * <b>Dostęp do urządzeń</b> Umożliwia korzystanie z różnych urządzeń wejściowych i wyjściowych.
 
-#### Describe the difference between a `cookie`, `sessionStorage` and `localStorage` ? Jaka jest rożnica pomiędzy `cookie`, `sessionStorage` i `localStorage`
+## Describe the difference between a `cookie`, `sessionStorage` and `localStorage` ? Jaka jest rożnica pomiędzy `cookie`, `sessionStorage` i `localStorage`
 * All mechanisms serve to store data on the client side. `cookie` are primarily used for communication with the server, `sessionStorage` for short-term data storage during a page session, and `localStorage` for long-term data storage between different sessions.
 
 * * `cookie` - Used to store small data, typically for tracking and authentication purposes.
@@ -50,7 +50,7 @@
 * * `sessionStorage` - Służy do przechowywania danych na czas trwania sesji strony i usuwanją sie po zamknieciu karty (sesji)
 * * `localStorage` -  Służy do trwałego przechowywania danych między sesjami przeglądarki i dane pozostają nawet po zamknięciu strony
 
-#### Describe the difference between `<script>`, `<script async>` and `<script defer>` | Jaka jest różnica między`<script>`, `<script async>` i `<script defer>`.
+## Describe the difference between `<script>`, `<script async>` and `<script defer>` | Jaka jest różnica między`<script>`, `<script async>` i `<script defer>`.
 
 * `<script>` tags are used to include JavaScript on a web page. The `<script async>` and `<script defer>` attributes are used to change how/when the loading and execution of the script happens.
 
