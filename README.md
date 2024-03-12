@@ -74,7 +74,8 @@
 ## Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions? | Dlaczego dobrym pomysłem jest zeby pozycjonować css `<link>` 
 
 *  In a nutshell, such a placement of CSS `<link>` and JavaScript `<script>` allows for faster rendering of the page and better overall performance.
- Also, placing `<script>` at the bottom means that the browser cannot start downloading the scripts until the entire document is parsed. This ensures your code that needs to manipulate DOM elements will not throw an error and halt the entire script. If you need to put `<script>` in the `<head>`, use the `defer` attribute, which will achieve the same effect of running the script only after the HTML is parsed but the browser can kick off the network request earlier to download the script.
+
+Also, placing `<script>` at the bottom means that the browser cannot start downloading the scripts until the entire document is parsed. This ensures your code that needs to manipulate DOM elements will not throw an error and halt the entire script. If you need to put `<script>` in the `<head>`, use the `defer` attribute, which will achieve the same effect of running the script only after the HTML is parsed but the browser can kick off the network request earlier to download the script.
 
 *  Krótko mówiąc, takie rozmieszczenie CSS `<link>` i JavaScript `<script>` pozwala na szybsze renderowanie strony i lepszą ogólną wydajność.
 
