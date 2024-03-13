@@ -161,3 +161,14 @@ Umieszczenie `<script>` na dole oznacza, że przeglądarka nie może rozpocząć
 
 ```
 
+## ➡️ What's the difference between an "attribute" and a "property" in HTML?
+
+> In summary, attributes are part of the HTML markup and provide initial settings for elements, while properties are part of the DOM representation of elements and can be accessed and modified dynamically via JavaScript.
+
+> Podsumowując, atrybuty są częścią znaczników HTML i dostarczają początkowych ustawień dla elementów, podczas gdy właściwości są częścią reprezentacji DOM elementów i mogą być dostępne i modyfikowane dynamicznie za pomocą JavaScriptu.
+
+
+## ➡️ Explain the difference between block elements and inline elements ?
+> Block elements create block-level boxes that start on a new line and take up the full width available, while inline elements flow within the text content and only take up as much width as necessary.
+
+> Block elements tworzą boxy na poziomie bloków, które zaczynają się od nowej linii i zajmują pełną dostępną szerokość, podczas gdy elementy inline przepływają wewnątrz treści tekstowej i zajmują tylko tyle szerokości, ile jest potrzebne.
