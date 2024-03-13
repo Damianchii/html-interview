@@ -97,4 +97,8 @@ Umieszczenie `<script>` na dole oznacza, że przeglądarka nie może rozpocząć
 
 * W skrócie, atrybut `srcset` w znaczniku obrazu pozwala na dostarczenie przeglądarce zestawu różnych obrazów o różnych rozmiarach lub rozdzielczościach. Proces oceny zawartości tego atrybutu polega na wyborze najlepszego obrazu na podstawie rozdzielczości urządzenia, dostępnej przestrzeni i innych czynników. Dzięki temu można zoptymalizować wyświetlanie obrazów dla różnych urządzeń i warunków sieciowych, poprawiając wydajność i doświadczenie użytkownika.
 
-## ➡️
+## ➡️ Have you used different HTML templating languages before? | Czy korzystałeś już wcześniej z różnych języków szablonów HTML?
+
+> No, but I hear about html template language like PUG which is HTML preprocessor this mean that it's basically a language that will be converted to native html code
+
+> Nie, ale słyszałem o języku szablonów HTML, takim jak PUG, który jest preprocesorem HTML, co oznacza, że jest to w zasadzie język, który zostanie przekonwertowany na natywny kod HTML
