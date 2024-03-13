@@ -1,10 +1,10 @@
 
 # HTML Interview Questions
 
-### What does a `doctype` do? | Co robi `doctype` ?
+## ➡️ What does a `doctype` do? | Co robi `doctype` ?
 * Specifies the HTML standard, helping browsers interpret and render the content correctly
 * Określa standard języka HTML. Polecenie jest wystawiane jeszcze przed definicja wlaciwego dokumentu 
-### How do you serve a page with content in multiple languages? | Jak udostępnić stronę z treścią w wielu językach?
+## ➡️ How do you serve a page with content in multiple languages? | Jak udostępnić stronę z treścią w wielu językach?
 * Use the `lang` attribute to specify the language in tag
 * Użyj atrybutu `lang`, aby określić język w znaczniku
 ```bash
@@ -13,13 +13,13 @@
 ```bash
   <span lang="en">Hello</span>
 ```
-### How do you serve a page with content in multiple languages? | Jak udostępnić stronę z treścią w wielu językach?
+## ➡️ How do you serve a page with content in multiple languages? | Jak udostępnić stronę z treścią w wielu językach?
 * Be wary of layout or overflow issues in the design
 * Trzyba uważać na problemy z układem lub przepełnieniem projektu.
-### What are `data-` attributes good for? | Do czego `data-` są dobre ?
+## ➡️ What are `data-` attributes good for? | Do czego `data-` są dobre ?
 * `data-attributes` are used to store custom data for elements. They are helpful for JavaScript interaction
 * `data-attributes` służą do przechowywania niestandardowych danych elementów. Są pomocne w interakcji JavaScript
-### Consider HTML5 as an open web platform. What are the building blocks of HTML5? | Rozważ HTML5 jako otwartą platformę internetową. Jakie są elementy składowe HTML5?
+## ➡️ Consider HTML5 as an open web platform. What are the building blocks of HTML5? | Rozważ HTML5 jako otwartą platformę internetową. Jakie są elementy składowe HTML5?
 * <b>Semantics</b> HTML tags describe the content.
 * <b>Styling - CSS</b> Customizing appearance of HTML tags
 * <b>Connectivity</b> Communicate with the server in new and innovative ways.
@@ -39,7 +39,7 @@
 * <b>Wydajność i integracja</b> Zapewnia optymalizację szybkości i lepsze wykorzystanie sprzętu komputerowego.
 * <b>Dostęp do urządzeń</b> Umożliwia korzystanie z różnych urządzeń wejściowych i wyjściowych.
 
-#### Describe the difference between a `cookie`, `sessionStorage` and `localStorage` ? Jaka jest rożnica pomiędzy `cookie`, `sessionStorage` i `localStorage`
+## ➡️ Describe the difference between a `cookie`, `sessionStorage` and `localStorage` ? Jaka jest rożnica pomiędzy `cookie`, `sessionStorage` i `localStorage`
 * All mechanisms serve to store data on the client side. `cookie` are primarily used for communication with the server, `sessionStorage` for short-term data storage during a page session, and `localStorage` for long-term data storage between different sessions.
 
 * * `cookie` - Used to store small data, typically for tracking and authentication purposes.
@@ -50,7 +50,7 @@
 * * `sessionStorage` - Służy do przechowywania danych na czas trwania sesji strony i usuwanją sie po zamknieciu karty (sesji)
 * * `localStorage` -  Służy do trwałego przechowywania danych między sesjami przeglądarki i dane pozostają nawet po zamknięciu strony
 
-#### Describe the difference between `<script>`, `<script async>` and `<script defer>` | Jaka jest różnica między`<script>`, `<script async>` i `<script defer>`.
+## ➡️ Describe the difference between `<script>`, `<script async>` and `<script defer>` | Jaka jest różnica między`<script>`, `<script async>` i `<script defer>`.
 
 * `<script>` tags are used to include JavaScript on a web page. The `<script async>` and `<script defer>` attributes are used to change how/when the loading and execution of the script happens.
 
@@ -71,12 +71,25 @@
 * Różnica między tymi atrybutami jest też taka, że skrypty z atrybutem defer będą odpalane w kolejności w jakiej zostały wstawione do dokumentu. W przypadku async skrypty będą odpalane w kolejności "kto pierwszy ten lepszy", czyli który skrypt wczyta się wcześniej, ten zostanie wcześniej odpalony.
 
 
-## Why is it generally a good idea to position CSS `<link>` between `<head></head>` and JS `<script>` just before `</body>`? Do you know any exceptions? | Dlaczego dobrym pomysłem jest zeby pozycjonować css `<link>` pomiedzy znacznikiem `<head></head>` i JS `<script>` przed `</body>` znasz jakies wyjątki ?
+## ➡️ Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions? | Dlaczego dobrym pomysłem jest zeby pozycjonować css `<link>` 
 
 *  In a nutshell, such a placement of CSS `<link>` and JavaScript `<script>` allows for faster rendering of the page and better overall performance.
-
-Also, placing `<script>` at the bottom means that the browser cannot start downloading the scripts until the entire document is parsed. This ensures your code that needs to manipulate DOM elements will not throw an error and halt the entire script. If you need to put `<script>` in the `<head>`, use the `defer` attribute, which will achieve the same effect of running the script only after the HTML is parsed but the browser can kick off the network request earlier to download the script.
+ Also, placing `<script>` at the bottom means that the browser cannot start downloading the scripts until the entire document is parsed. This ensures your code that needs to manipulate DOM elements will not throw an error and halt the entire script. If you need to put `<script>` in the `<head>`, use the `defer` attribute, which will achieve the same effect of running the script only after the HTML is parsed but the browser can kick off the network request earlier to download the script.
 
 *  Krótko mówiąc, takie rozmieszczenie CSS `<link>` i JavaScript `<script>` pozwala na szybsze renderowanie strony i lepszą ogólną wydajność.
 
 Umieszczenie `<script>` na dole oznacza, że przeglądarka nie może rozpocząć pobierania skryptów, dopóki cały dokument nie zostanie przeanalizowany. Dzięki temu Twój kod wymagający manipulacji elementami DOM nie wygeneruje błędu i nie zatrzyma całego skryptu. Jeśli chcesz umieścić `<script>` w `<head>`, użyj atrybutu `defer`, który osiągnie ten sam efekt, uruchamiając skrypt dopiero po przeanalizowaniu kodu HTML, ale przeglądarka może wcześniej wystartować z żądaniem sieciowym, aby pobrać skrypt .
+
+## ➡️ What is progressive rendering? | Co to jest progresywne renderowanie ?
+
+* In a nutshell, progressive rendering is a technique used in web development to improve website performance and user experience by displaying content as it becomes available, rather than waiting for the entire page to load. It prioritizes loading critical content first, such as text and basic layout elements, while asynchronously loading non-critical resources like images and scripts. This approach provides immediate feedback to users, reduces perceived load times, and creates a smoother browsing experience.
+
+* W skrócie, progresywne renderowanie to technika stosowana w tworzeniu stron internetowych, która poprawia wydajność strony oraz doświadczenie użytkownika poprzez wyświetlanie zawartości w miarę jej dostępności, zamiast czekać na pełne załadowanie całej strony. Priorytetowo traktuje się ładowanie kluczowej zawartości, takiej jak tekst i podstawowe elementy układu, podczas gdy nieistotne zasoby, takie jak obrazy i skrypty, są ładowane asynchronicznie. Takie podejście zapewnia użytkownikom natychmiastową informację zwrotną, zmniejsza odczuwany czas ładowania oraz tworzy bardziej płynne doświadczenie przeglądania
+
+## ➡️ Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute. | Dlaczego miałbyś używać atrybutu `srcset` w tagu obrazu? Wyjaśnij proces stosowany przez przeglądarkę podczas oceny zawartości tego atrybutu.
+
+* In a nutshell, the `srcset` attribute in an image tag allows the browser to receive a set of different images with various sizes or resolutions. The process of evaluating the content of this attribute involves selecting the best image based on the device's resolution, available space, and other factors. This helps optimize the display of images for different devices and network conditions, improving performance and user experience.
+
+* W skrócie, atrybut `srcset` w znaczniku obrazu pozwala na dostarczenie przeglądarce zestawu różnych obrazów o różnych rozmiarach lub rozdzielczościach. Proces oceny zawartości tego atrybutu polega na wyborze najlepszego obrazu na podstawie rozdzielczości urządzenia, dostępnej przestrzeni i innych czynników. Dzięki temu można zoptymalizować wyświetlanie obrazów dla różnych urządzeń i warunków sieciowych, poprawiając wydajność i doświadczenie użytkownika.
+
+## ➡️
