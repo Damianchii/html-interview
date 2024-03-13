@@ -22,6 +22,7 @@
 ```
 ## ➡️ How do you serve a page with content in multiple languages? | Jak udostępnić stronę z treścią w wielu językach?
 > Be wary of layout or overflow issues in the design
+
 > Trzyba uważać na problemy z układem lub przepełnieniem projektu.
 ## ➡️ What are `data-` attributes good for? | Do czego `data-` są dobre ?
 > `data-attributes` are used to store custom data for elements. They are helpful for JavaScript interaction
