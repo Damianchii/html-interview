@@ -102,3 +102,23 @@ Umieszczenie `<script>` na dole oznacza, że przeglądarka nie może rozpocząć
 > Yes i have, I use React (JSX)
 
 > Tak, korzystalem z React (JSX)
+
+## ➡️ What is the difference between canvas and svg? | Jaka jest różnica między canvas a svg ?
+
+> `<canvas>` jest oparty na mapie bitowej, rysowany programowo przez JavaScript, najlepszy do dynamicznych grafik.
+
+> `<svg>` jest oparty na wektorach, używa znaczników, nadaje się do skalowalnych, stylizowanych grafik.
+
+## ➡️ What are empty elements in HTML ? | Co to są puste elementy w HTML?
+
+> Empty elements in HTML are elements that do not have any content between their opening and closing tags. Here's a few examples:
+> * `<link>`
+> * `<meta>`
+> * `<br>`
+> * `<input>`
+
+> Puste elementy w HTML to elementy, które nie mają żadnej treści pomiędzy znacznikami otwierającym i zamykającym. Oto kilka przykładów:
+> * `<link>`
+> * `<meta>`
+> * `<br>`
+> * `<input>`
