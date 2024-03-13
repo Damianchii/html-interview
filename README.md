@@ -8,9 +8,11 @@
 
 ## ➡️ What does a `doctype` do? | Co robi `doctype` ?
 > Specifies the HTML standard, helping browsers interpret and render the content correctly
+ 
 > Określa standard języka HTML. Polecenie jest wystawiane jeszcze przed definicja wlaciwego dokumentu 
 ## ➡️ How do you serve a page with content in multiple languages? | Jak udostępnić stronę z treścią w wielu językach?
 > Use the `lang` attribute to specify the language in tag
+
 > Użyj atrybutu `lang`, aby określić język w znaczniku
 ```bash
   <html lang="en">
