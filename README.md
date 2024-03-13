@@ -59,9 +59,9 @@
 
 > `<script>` tags are used to include JavaScript on a web page. The `<script async>` and `<script defer>` attributes are used to change how/when the loading and execution of the script happens.
 
-> The `async` attribute means that if the browser, while reading the page code, encounters a file with a script, it will start loading it in the background while reading the rest of the page code. If the entire script file is loaded, the code will be fired.
+> * The `async` attribute means that if the browser, while reading the page code, encounters a file with a script, it will start loading it in the background while reading the rest of the page code. If the entire script file is loaded, the code will be fired.
 
-> The `defer` attribute works somewhat similarly. The script file will also be loaded in the background. The difference is that if the browser has already loaded the entire script file, it will run it after loading the entire document (but just before firing the DOMContentLoaded event). This can be compared to a situation where a given script would be placed just before the end of the body.
+> * The `defer` attribute works somewhat similarly. The script file will also be loaded in the background. The difference is that if the browser has already loaded the entire script file, it will run it after loading the entire document (but just before firing the DOMContentLoaded event). This can be compared to a situation where a given script would be placed just before the end of the body.
 
 > The difference between these attributes is that scripts with the defer attribute will be fired in the order in which they were inserted into the document. In the case of async, scripts will be fired in the "first come, first served" order, i.e. whichever script is loaded first will be fired first.
 
@@ -69,9 +69,9 @@
 
 > `<script>` służą do umieszczania kodu JavaScript na stronie internetowej. The `<script async>` and `<script defer>` służą do zmiany sposobu/czasu ładowania i wykonywania skryptu.
 
-> Atrybut `async` powoduje, że jeżeli przeglądarka czytając kod strony natrafi na plik ze skryptem zacznie go wczytywać w tle, równocześnie czytając dalszą część kodu strony. Jeżeli cały  plik ze skryptem się wczyta, wtedy kod zostanie odpalony.
+> * Atrybut `async` powoduje, że jeżeli przeglądarka czytając kod strony natrafi na plik ze skryptem zacznie go wczytywać w tle, równocześnie czytając dalszą część kodu strony. Jeżeli cały  plik ze skryptem się wczyta, wtedy kod zostanie odpalony.
 
-> Atrybut `defer` działa w miarę podobnie. Plik ze skryptem też będzie wczytywany w tle. Różnica jest taka, że jeżeli przeglądarka wczyta już cały plik ze skryptem, odpali go po załadowaniu całego dokumentu (ale tuż przed odpaleniem zdarzenia DOMContentLoaded). Można to przyrównać do sytuacji, gdy dany skrypt byłby umieszczony tuż przed końcem body. 
+> * Atrybut `defer` działa w miarę podobnie. Plik ze skryptem też będzie wczytywany w tle. Różnica jest taka, że jeżeli przeglądarka wczyta już cały plik ze skryptem, odpali go po załadowaniu całego dokumentu (ale tuż przed odpaleniem zdarzenia DOMContentLoaded). Można to przyrównać do sytuacji, gdy dany skrypt byłby umieszczony tuż przed końcem body. 
 
 > Różnica między tymi atrybutami jest też taka, że skrypty z atrybutem defer będą odpalane w kolejności w jakiej zostały wstawione do dokumentu. W przypadku async skrypty będą odpalane w kolejności "kto pierwszy ten lepszy", czyli który skrypt wczyta się wcześniej, ten zostanie wcześniej odpalony.
 
