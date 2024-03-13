@@ -133,8 +133,31 @@ Umieszczenie `<script>` na dole oznacza, że przeglądarka nie może rozpocząć
 
 > `<iframe>` (wbudowany kadr) to element HTML używany do osadzania innego dokumentu HTML wewnątrz bieżącego dokumentu
 
-## Expain meta tags in HTML ? | Wyjaśnij meta tagi w HTML ? 
+## ➡️ Expain meta tags in HTML ? | Wyjaśnij meta tagi w HTML ? 
 
 > Meta tags always go inside `<head>` tag of the HTML page. Meta tags include information such as the page's title, description, author, character set encoding, viewport settings for responsive design, and more. They help search engines understand the content of the page and improve its visibility in search results.
 
 > Meta tagi zawsze są w znaczniku `<head>` Meta tagi zawierają informacje takie jak tytuł strony, opis, autor, kodowanie zestawu znaków, ustawienia viewportu dla responsywnego projektowania i wiele innych. Pomagają one wyszukiwarkom zrozumieć zawartość strony i poprawiają jej widoczność w wynikach wyszukiwania.
+
+## ➡️ What is difference between `<span>` and `<div>` ? Jaka jest róznica miedzy `<span>` a `<div>`
+
+> `<span>` (inline level) is used for smaller, inline-level styling or functionality, while `<div>` (block level) is used for larger, block-level grouping of content.
+
+> `<span>` (inline level) jest używany do mniejszej, stylizacji wiersza lub funkcjonalności, podczas gdy `<div>` (block level) jest używany do większego, blokowego grupowania treści.
+
+## ➡️ What is Character Encoding in html ? Czym jest Character Encoding w HTML ?
+
+```bash
+  <meta charset="UTF-8">
+```
+
+
+## ➡️ How Can I Get Indexed Better by Search Engines? | Jak zwiekszyć pozycjonowanie ?
+
+> We can use meta tags
+```bash
+  <meta name="description" content="Description of the webpage">
+  <meta name="keywords" content="Keyword1, Keyword2, Keyword3">
+
+```
+
