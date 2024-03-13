@@ -1,5 +1,10 @@
 
-# HTML Interview Questions
+# HTML Interview Questions 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html" />
+  </a>
+</p>
 
 ## ➡️ What does a `doctype` do? | Co robi `doctype` ?
 * Specifies the HTML standard, helping browsers interpret and render the content correctly
