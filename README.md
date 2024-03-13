@@ -1,5 +1,5 @@
 
-# 🚀 HTML Interview Questions 
+# HTML Interview Questions 
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html" />
@@ -8,7 +8,7 @@
 
 ## ➡️ What does a `doctype` do? | Co robi `doctype` ?
 > Specifies the HTML standard, helping browsers interpret and render the content correctly
- 
+
 > Określa standard języka HTML. Polecenie jest wystawiane jeszcze przed definicja wlaciwego dokumentu 
 ## ➡️ How do you serve a page with content in multiple languages? | Jak udostępnić stronę z treścią w wielu językach?
 > Use the `lang` attribute to specify the language in tag
@@ -126,3 +126,15 @@ Umieszczenie `<script>` na dole oznacza, że przeglądarka nie może rozpocząć
 > * `<meta>`
 > * `<br>`
 > * `<input>`
+
+## ➡️ What is an `<iframe>` ? | Czym jest `<iframe>`?
+
+> An `<iframe>` (inline frame) is an HTML element used to embed another HTML document within the current document
+
+> `<iframe>` (wbudowany kadr) to element HTML używany do osadzania innego dokumentu HTML wewnątrz bieżącego dokumentu
+
+## Expain meta tags in HTML ? | Wyjaśnij meta tagi w HTML ? 
+
+> Meta tags always go inside `<head>` tag of the HTML page. Meta tags include information such as the page's title, description, author, character set encoding, viewport settings for responsive design, and more. They help search engines understand the content of the page and improve its visibility in search results.
+
+> Meta tagi zawsze są w znaczniku `<head>` Meta tagi zawierają informacje takie jak tytuł strony, opis, autor, kodowanie zestawu znaków, ustawienia viewportu dla responsywnego projektowania i wiele innych. Pomagają one wyszukiwarkom zrozumieć zawartość strony i poprawiają jej widoczność w wynikach wyszukiwania.
